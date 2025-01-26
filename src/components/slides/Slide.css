@@ -41,7 +41,7 @@ pre {
 }
 
 a {
-  font-family: "monospace";
+
   display: inline-block;
   margin-top: 15px;
   padding: 8px 12px;
@@ -52,8 +52,9 @@ a {
   transition: background-color 0.3s ease;
 }
 
-a:hover {
+.a:hover {
   background-color: #0056b3;
+  box-shadow: #f8f7f7 0px 0px 5px;
 }
 
 /* Responsive adjustments */

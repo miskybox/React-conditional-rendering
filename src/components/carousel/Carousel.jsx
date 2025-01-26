@@ -32,11 +32,19 @@ const slides = [
   },
   {
     title: "Methods for Conditional Rendering",
-    englishContent:
-      "Includes If/Else, Ternary Operators, Logical Operators (&&, ||), and Switch Statements.",
+    englishContent: `
+   If/Else Statements**: For straightforward condition checks.
+   Ternary Operators**: For compact and inline conditions.
+   Logical Operators**: Use && or || for simpler logic.
+   Switch Statements**: Ideal for multiple conditions.
+`,
     subtitle: "Métodos para Renderización Condicional",
-    spanishContent:
-      "Incluye If/Else, Operadores Ternarios, Operadores Lógicos (&&, ||) y Sentencias Switch.",
+    spanishContent: `
+    If/Else**: Para comprobaciones de condiciones directas.
+    Operadores ternarios**: Para condiciones compactas y en línea.
+    Operadores lógicos**: Usa && o || para lógica simple.
+    Sentencias Switch**: Ideales para múltiples condiciones.
+    `,
   },
   {
     title: "If/Else Statement",
@@ -112,62 +120,17 @@ return message;
 }`,
   },
   {
-    title: "Render Props",
-    englishContent:
-      "Render props are functions passed as props that control how content is rendered.",
-    subtitle: "Render Props",
-    spanishContent:
-      "Las render props son funciones pasadas como props que controlan cómo se renderiza el contenido.",
-    codeExample: `
-function ConditionalRender(props) {
-  return props.render(props.isLoggedIn);
-}
-
-function Example(props) {
-  return (
-    <ConditionalRender
-      isLoggedIn={props.isLoggedIn}
-      render={(isLoggedIn) => (
-        isLoggedIn ? <h1>Welcome back!</h1> : <h1>Please log in.</h1>
-      )}
-    />
-  );
-}`,
-  },
-  {
-    title: "Use the React Hooks",
-    englishContent: "Hooks simplify state management and conditional logic.",
-    subtitle: "Uso de React Hooks",
-    spanishContent:
-      "Los hooks simplifican el manejo del estado y lógica condicional.",
-    codeExample: `
-import React, { useState } from 'react';
-
-function Example() {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
-
-  return (
-    <div>
-      {isLoggedIn ? <h1>Welcome back!</h1> : <h1>Please log in.</h1>}
-      <button onClick={() => setIsLoggedIn(!isLoggedIn)}>
-        {isLoggedIn ? 'Log out' : 'Log in'}
-      </button>
-    </div>
-  );
-}`,
-  },
-  {
     title: "Best Practices",
     englishContent: `
-      "Keep conditionals simple",
-      "Use constants for boolean values",
-      "Test conditional logic thoroughly"
+    Keep conditionals simple:** Avoid overly complex conditions for better readability and maintainability.
+    Use constants for boolean values:** Improves clarity and makes the code easier to debug.
+    Test conditional logic thoroughly:** Ensure all scenarios are covered to prevent unexpected behavior.
     `,
     subtitle: "Mejores Prácticas",
     spanishContent: `
-      "Mantén las condicionales simples",
-      "Usa constantes para valores booleanos",
-      "Prueba la lógica condicional exhaustivamente", 
+   Mantén las condicionales simples:** Evita condiciones excesivamente complejas para mejorar la legibilidad y mantenibilidad.
+   Usa constantes para valores booleanos:** Mejora la claridad y facilita la depuración del código.
+   Prueba la lógica condicional exhaustivamente:** Asegúrate de cubrir todos los escenarios para evitar comportamientos inesperados.
     `,
   },
   {
@@ -178,7 +141,7 @@ function Example() {
     spanishContent:
       "Para más detalles, visita la documentación oficial de React sobre Renderización Condicional.",
     link: "https://es.react.dev/learn/conditional-rendering",
-    src: "./assets/poke.png",
+    src: "./assets/pokeDog1.png",
   },
 ];
 
