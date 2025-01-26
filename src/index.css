@@ -1,0 +1,13 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: whitesmoke;
+  }
+}

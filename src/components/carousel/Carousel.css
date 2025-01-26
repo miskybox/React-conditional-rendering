@@ -1,0 +1,68 @@
+/* Carousel.css */
+.carousel-container {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 90%;
+  height: 450px;
+  background-color: wheat;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-controls {
+  padding-bottom: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+}
+
+.carousel-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 8px;
+  background-color: #213547;
+  color: white;
+  border: none;
+}
+
+.carousel-button:hover {
+  background-color: #3c4048;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .carousel-container {
+    height: auto;
+    max-width: 95%;
+    padding: 10px;
+  }
+
+  .carousel-controls {
+    position: relative;
+    margin-top: 10px;
+  }
+
+  .carousel-button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
+
+.content-section {
+  margin-bottom: 20px;
+  max-height: calc(100% - 100px);
+  overflow-y: auto;
+}
+
+.code-example {
+  margin-top: 20px;
+  max-height: 150px;
+  overflow-y: auto;
+}
