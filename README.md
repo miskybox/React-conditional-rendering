@@ -1,15 +1,11 @@
 # React : Introduction to Conditional Rendering
 
-https://www.youtube.com/watch?v=n_GFN3a0yj0
+ **renderización condicional en React**. 
+
+
 
 ### Slide 1: Introduction to Conditional Rendering
 
-
- **renderización condicional en React**. 
-
----
-
-### **Estructura Ordenada de las Slides:**
 
 1. **Título:**
    - **EN**: *Conditional Rendering in React*
@@ -17,14 +13,14 @@ https://www.youtube.com/watch?v=n_GFN3a0yj0
    - (Breve descripción introductoria del tema)
 
 
-3. **Por qué usar Renderización Condicional:**
+2. **Por qué usar Renderización Condicional:**
    - **EN**: *Why Use Conditional Rendering?*
    - **ES**: *¿Por qué usar Renderización Condicional?*
    - Importancia de tomar decisiones dinámicas en la interfaz de usuario.
 
 ---
 
-4. **Métodos principales en React (resumen):**
+3. **Métodos principales en React (resumen):**
    - **EN**: *Methods for Conditional Rendering*
    - **ES**: *Métodos para Renderización Condicional*
    - Introducción a:
@@ -35,7 +31,7 @@ https://www.youtube.com/watch?v=n_GFN3a0yj0
 
 ---
 
-5. **If/Else Statement:**
+4. **If/Else Statement:**
    - **EN**: *Using If/Else for Conditional Rendering*
    - **ES**: *Uso de If/Else para Renderización Condicional*
    - Ejemplo de código:
@@ -52,7 +48,7 @@ https://www.youtube.com/watch?v=n_GFN3a0yj0
 
 ---
 
-6. **Operador Ternario:**
+5. **Operador Ternario:**
    - **EN**: *Ternary Operator for Compact Syntax*
    - **ES**: *Operador Ternario para Sintaxis Compacta*
    - Ejemplo de código:
@@ -69,7 +65,7 @@ https://www.youtube.com/watch?v=n_GFN3a0yj0
 
 ---
 
-7. **Operadores Lógicos (`&&`):**
+6. **Operadores Lógicos (`&&`):**
    - **EN**: *Logical AND (`&&`) for Conditional Rendering*
    - **ES**: *Uso del Operador Lógico `&&` para Renderización Condicional*
    - Ejemplo:
@@ -86,14 +82,14 @@ https://www.youtube.com/watch?v=n_GFN3a0yj0
 
 ---
 
-8. **Sentencias Switch:**
+7. **Sentencias Switch:**
    - **EN**: *Using Switch Statements*
    - **ES**: *Uso de Sentencias Switch*
    - Ejemplo de código con roles de usuario.
 
 ---
 
-9. **Render Props:**
+. **Render Props:**
    - **EN**: *Using Render Props*
    - **ES**: *Uso de Render Props*
    - Ejemplo práctico para condicionales dinámicas:
@@ -106,14 +102,14 @@ https://www.youtube.com/watch?v=n_GFN3a0yj0
 
 ---
 
-10. **Componentes de Orden Superior (HOC):**
+. **Componentes de Orden Superior (HOC):**
     - **EN**: *Using Higher-Order Components (HOC)*
     - **ES**: *Uso de Componentes de Orden Superior (HOC)*
     - Ejemplo encapsulando lógica condicional.
 
 ---
 
-11. **Uso de Hooks:**
+. **Uso de Hooks:**
     - **EN**: *Using Hooks for Conditional Rendering*
     - **ES**: *Uso de Hooks para Renderización Condicional*
     - Ejemplo práctico con `useState`.
